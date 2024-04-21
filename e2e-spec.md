@@ -20,7 +20,7 @@ Click on the second button[span[class="pi-trash"]] to delete the record because 
 Click on button[aria-label="Yes"] to confirm deletion
 Click on the aria-label="New" button and type the following information: MATS0${E2E_UNIQUE_CONTEXT} in input id="plate"; VANS0${E2E_UNIQUE_CONTEXT} in id="vehicleType"; "A van for test S0 and context ${E2E_UNIQUE_CONTEXT}" in input id="vehicleTypeDescription"; and 4 in span[id="vehicleCapacity"]/input; then click on button[type="submit"].
 
- Type MATS0${E2E_UNIQUE_CONTEXT} in input[placeholder="Filter by Matricula..."]; VANS0${E2E_UNIQUE_CONTEXT} in input[placeholder="Filter by Vehicle Type..."]; "A van for test S0 and context ${E2E_UNIQUE_CONTEXT}" in input[placeholder="Filter by Description..."]; and 8 in input[placeholder="Filter by Capacity..."].
+Type MATS0${E2E_UNIQUE_CONTEXT} in input[placeholder="Filter by Matricula..."]; VANS0${E2E_UNIQUE_CONTEXT} in input[placeholder="Filter by Vehicle Type..."]; "A van for test S0 and context ${E2E_UNIQUE_CONTEXT}" in input[placeholder="Filter by Description..."]; and 8 in input[placeholder="Filter by Capacity..."].
 Assert that a span with class="p-paginator-current" exists and contains the text "Showing 0 to 0 of 0 businesses" because the record previously inserted will not be matched.
 Change the 8 by a 4.
 Assert that the span now contains "Showing 1 to 1 of 1 businesses" because the record previously inserted will be matched.
