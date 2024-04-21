@@ -6,6 +6,7 @@ Selectors should really be attributes in each element with a name matching "e2e-
 e2e
 
 # e2e-spec - S0 - Vehicles
+```
 Go to the app landing view specified in environment variable E2E_URL
 Login with E2E_USER in input[placeholder="Username"], E2E_PASSWORD in input[placeholder="Password"] clicking button[type="button"]
 Move the cursor to the top left corner of the browser window so that the left menu tray can be open
@@ -35,3 +36,4 @@ Assert that the row is still present because no deletion has happened
 Click on the second button[span[class="pi-trash"]] to delete the record because the first one is the one on the top
 Click on button[aria-label="Yes"] to confirm the action
 Assert that the row is removed because a deletion has happened
+```
