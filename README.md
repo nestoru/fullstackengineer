@@ -11,6 +11,8 @@ The br-spec document contains an example of a business requested functionality.
 
 The e2e-spec document contains an example of end to end specifications for a different business requested functionality.
 
+The Playwright ts file contains the implementation of the e2e-spec.
+
 The job of a fullstack engineer working with me in my projects is to deliver:
 
 1. An e2e-spec out of the br-spec provided.
